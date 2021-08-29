@@ -89,7 +89,7 @@ const Navbar = () => {
               <NavLink className="nav-link" to="/contact" exact>
                 <i 
                 className="far fa-address-card">
-                </i>Contact Us
+                </i>Contact
               </NavLink>
             </li>
         </ul>
