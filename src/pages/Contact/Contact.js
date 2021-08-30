@@ -6,14 +6,14 @@ const Contact = () => {
         Contact me
       </h1>
 
-      <h2 className="text-center" style={{paddingTop: "5%"}}>
+      <h3 className="text-center" style={{paddingTop: "10%"}}>
         If you want to contact me, just send us an email at <a href="mailto:patrickpacurar@yahoo.com">
         Patrick Pacurar
-      </a>.</h2>
+      </a>.</h3>
 
-      <h2 className="text-center" style={{paddingTop: "5%"}}>
+      <h3 className="text-center" style={{paddingTop: "5%"}}>
         You can also find me on <a href="https://www.facebook.com/patrickpacurar">Facebook</a> or <a href="https://www.instagram.com/patrickpacurar/">Instagram</a>.
-      </h2>
+      </h3>
 
     </div>
   )
