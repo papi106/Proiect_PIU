@@ -29,7 +29,7 @@ const GroceryList = () => {
     } else if (name && isEditing) {
       setList(
         list.map((item) => {
-          if(item.id== editID) {
+          if(item.id === editID) {
             return {...item, title: name}
           }
           return item
@@ -57,7 +57,7 @@ const GroceryList = () => {
   };
 
   const editItem = (id) => {
-    const editItem = list.find((item) => item.id == id);
+    const editItem = list.find((item) => item.id === id);
     setIsEditing(true);
     setEditID(id);
     setName(editItem.title);

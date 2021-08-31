@@ -46,7 +46,7 @@ const Navbar = () => {
   return (
   <nav className="navbar navbar-expand-lg navbar-mainbg">
     
-      <NavLink className="navbar-brand navbar-logo" to="/" exact>
+      <NavLink className="navbar-brand navbar-logo" to="/home" exact>
         Web Grocery List
       </NavLink>
     
@@ -61,7 +61,7 @@ const Navbar = () => {
       </button>
  
       <div
-        className="collapse navbar-collapse" id="navbarSupportedContent">
+        className="collapse navbar-collapse" id="navbarSupportedContent" style={{float:"right"}}>
         <ul className="navbar-nav ml-auto">
             
             <div className="hori-selector">

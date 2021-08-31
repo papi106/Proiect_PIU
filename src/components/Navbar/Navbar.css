@@ -2,7 +2,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background: #98fb98;
+  background: white;
 }
 * {
   margin: 0;
@@ -23,6 +23,7 @@ i {
 #navbarSupportedContent {
   overflow: hidden;
   position: relative;
+  float: right;
 }
 #navbarSupportedContent ul {
   padding: 0px;
@@ -33,7 +34,7 @@ i {
 }
 #navbarSupportedContent li {
   list-style-type: none;
-  float: left;
+  float: right;
 }
 #navbarSupportedContent ul li a {
   color: white;
